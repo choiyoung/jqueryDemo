@@ -3,4 +3,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <c:set var="context" value="<%=request.getContextPath() %>"></c:set>
+<style>@IMPORT url("${context}/css/common.css");</style>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<div class="outbox center pad">
+	<div class="box"></div>
+</div>
+

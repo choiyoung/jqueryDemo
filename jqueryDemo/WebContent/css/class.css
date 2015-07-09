@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+.border{
+	border: 1px solid black;
+}
+.box{
+	width : 100%;
+	margin: 0 auto;  /* div 를 센터로 정렬시키는 값 */
+}
+
+.centT{
+    font-size: 30px; 
+    text-align: center;
+}
+.center{
+    margin : 0 auto; 
+}
+.centTd{
+     font-size: 50px;
+     text-align: center;
+}
+.clear{
+    clear: both;
+}
+.hidden{
+    display:none;
+}
+.outbox{
+	width: 80%;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+.pad{
+	padding : 10 10;
+}
+.tab{
+    border: 1px solid black;
+    font-size: 21px;
+    font: bold;
+}
+.tab tr td{
+	border: 1px solid black;
+}
+.item{ float : left; width: 100px}
