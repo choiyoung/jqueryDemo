@@ -54,27 +54,27 @@
 				<td> 엘리먼트 앞에 있는 모든 형제 엘리먼트 </td>
 			</tr>
 			<tr>
-				<td> siblings() </td>
+				<td> siblings() <button id ="siblingsDemo">샘플</button> </td>
 				<td> 엘리먼트와 같은 노드 위치의 모든 엘리먼트 </td>
 			</tr>
 			<tr>
-				<td> parents() </td>
+				<td> parents() <button id ="parentsDemo">샘플</button> </td>
 				<td> 모든 부모 엘리먼트 </td>
 			</tr>
 			<tr>
-				<td> preent() </td>
+				<td> preent() <button id ="parentDemo">샘플</button> </td>
 				<td> 인접해 있는 가장 가까운 부모 엘리먼트 </td>
 			</tr>
 			<tr>
-				<td> find() </td>
+				<td> find() <button id ="findDemo">샘플</button> </td>
 				<td> 셀렉트된 엘리먼트 중에서 자손 엘리먼트 </td>
 			</tr>
 			<tr>
-				<td> map() </td>
+				<td> map() <button id ="mapDemo">샘플</button> </td>
 				<td> 셀렉트 된 엘리먼트 내용을 변경 </td>
 			</tr>
 			<tr>
-				<td> end() </td>
+				<td> end() <button id ="endDemo">샘플</button> </td>
 				<td> 메소드 체이닝 중에 최초 엘리먼트로 돌아가기 </td>
 			</tr>			
 		</table>
@@ -88,6 +88,11 @@
 		$('#filterDemo').click(function() {traversing.filterDemo();});
 		$('#notDemo').click(function() {traversing.notDemo();});
 		$('#sliceDemo').click(function() {traversing.sliceDemo();});
-		
+		$('#siblingsDemo').click(function() {traversing.siblingsDemo();});
+		$('#parentsDemo').click(function() {traversing.parentsDemo();});
+		$('#parentDemo').click(function() {traversing.parentDemo();});
+		$('#findDemo').click(function() {traversing.findDemo();});
+		$('#mapDemo').click(function() {traversing.mapDemo();});
+		$('#endDemo').click(function() {traversing.endDemo();});
 	});	
 </script>

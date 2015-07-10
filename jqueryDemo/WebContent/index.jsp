@@ -37,12 +37,12 @@
 			<li><a href="${context }/jquery/selector.do"> Chapter 02. 셀렉터 다루기 </a></li>
 			<li><a href="${context }/jquery/attr.do"> Chapter 03. 어트리뷰트 다루기</a></li>
 			<li><a href="${context }/jquery/traversing.do"> Chapter 04. DOM 탐색하기</a></li>
-			<li><a href="${context }/jquery/ch05.do"> Chapter 05. DOM 조작하기</a></li>
-			<li><a href="${context }/jquery/ch06.do"> Chapter 06. 이벤트 처리하기</a></li>
+			<li><a href="${context }/jquery/manipul.do"> Chapter 05. DOM 조작하기</a></li>
+			<li><a href="${context }/jquery/event.do"> Chapter 06. 이벤트 처리하기</a></li>
 			<li><a href="${context }/jquery/ch07.do"> Chapter 07. 효과</a></li>
 			<li><a href="${context }/jquery/ch08.do"> Chapter 08. 유틸리티</a></li>
 			<li><a href="${context }/jquery/ch09.do"> Chapter 09. Ajax </a></li>
-			<li><a href="${context }/jquery/ch10.do"> Chapter 10. 플러그인 사용법과 사용자 정의	플러그인 제작 </a></li>
+			<li><a href="${context }/jquery/table.do"> Chapter 10. 플러그인 사용법과 사용자 정의	플러그인 제작 </a></li>
 			<li><a href="${context }/jquery/ch11.do"> Chapter 11. jQuery UI </a></li>
 		</ul>
 	</div>

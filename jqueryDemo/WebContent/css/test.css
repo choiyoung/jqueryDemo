@@ -6,3 +6,10 @@
 	float: left;
 	border: 2px black solid;
 }
+.slideTest{
+	background: yellow;
+	margin: 3px;
+	width: 80px;
+	height: 40px;
+	float: left;
+}
